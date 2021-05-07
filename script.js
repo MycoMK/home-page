@@ -8,7 +8,7 @@ const person = {
     })
 }
 
-console.log(fullName)
+// console.log(fullName)
 
 function rolldie(numSide = 6){
     return Math.floor(math.random() * numSides) + 1
