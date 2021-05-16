@@ -13,3 +13,5 @@ const person = {
 function rolldie(numSide = 6){
     return Math.floor(math.random() * numSides) + 1
 }
+
+document.querySelector('h1').innerHTML = '<i> Listening , presenting, briefing and body language</i>'
