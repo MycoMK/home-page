@@ -3,9 +3,9 @@ alert('connnected')
 const person = {
     firstName: ' Viggo',
     lastName: 'Montreal',
-    fullName: (() =>{
+    fullName: function () =>{
         return `${this.firstName},${this.lastName}`
-    })
+    }
 }
 
 // console.log(fullName)
